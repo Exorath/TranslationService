@@ -41,6 +41,7 @@ Service for message translation
 
 ###/packages/{packageId} [PUT]
 ####Updates the package if the version is the most recent.
+If the version is smaller or equal to the current version of the translation package, the update will not happen and success=false will be returned.
 
 **Body**:
 ```json
