@@ -63,10 +63,10 @@ Service for message translation
   },
     "LEAVE_SUFFIX": {
       "EN": "left the game",
-      "FR": "a rejoint le jeu",
+      "FR": "a quitté le jeu",
       "NL": "verliet het spel",
       "ES": "abandonó el juego",
-      "DE": "schloss sich an"
+      "DE": "verließ das Spiel"
     }
   }
 }
