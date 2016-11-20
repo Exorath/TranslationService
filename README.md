@@ -3,7 +3,7 @@ Service for message translation
 
 ##Endpoints
 ###/packages/{packageId} [GET]
-####Gets a translationPackage by it's ID.
+####Gets a translationsPackage by it's ID.
 
 **Response**:
 ```json
@@ -27,17 +27,17 @@ Service for message translation
   }
 }
 ```
-- version (number): the current version of the translationPackage
+- version (number): the current version of the translationsPackage
 - translations (jsonobjcet): All the translations by their key
 
 ###/packages/{packageId}/version [GET]
-####Gets the version of a translationPackage.
+####Gets the version of a translationsPackage.
 
 **Response**:
 ```json
 {"version": 3}
 ```
-- version (number): the current version of the translationPackage
+- version (number): the current version of the translationsPackage
 
 ###/packages/{packageId} [PUT]
 ####Updates the package if the version is the most recent.
