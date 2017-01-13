@@ -28,6 +28,16 @@ public class TranslatableString {
         this.translationId = translationId;
     }
 
+    /**
+     * FOR NOW THIS JUST RETURNS THE DEFAULT STRING, UNIMPLEMENTED
+      * @param packageId
+     * @param playerUuid
+     * @return
+     */
+    public String translate(String packageId, String playerUuid){
+        return defaultString;
+    }
+
     public String getDefaultString() {
         return defaultString;
     }
